@@ -36,3 +36,10 @@ def turn(board)
 end
 
 # Define your play method below
+def play(board)
+  buffer = 0
+  while (buffer != 9) do
+    turn(board)
+    buffer += 1
+  end
+end
